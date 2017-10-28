@@ -25,13 +25,13 @@
 					<form role="form" action="#" method="post">
 						<div class="form-group">
 							<label for="add_course_id"><span
-								class="glyphicon glyphicon-course"></span> Course Id</label> <input type="text"
+								class="glyphicon glyphicon-heart"></span> Course Id</label> <input type="text"
 								class="form-control" id="add_course_id" name="course_id"
 								placeholder="Please input course id" required="required">
 						</div>
 						<div class="form-group">
 							<label for="add_course_name"><span
-								class="glyphicon glyphicon-course"></span> Name</label> <input type="text"
+								class="glyphicon glyphicon-heart"></span> Name</label> <input type="text"
 								class="form-control" id="add_course_name" name="course_name"
 								placeholder="Please input course name" required="required">
 						</div>					

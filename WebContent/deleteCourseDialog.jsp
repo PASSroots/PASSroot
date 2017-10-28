@@ -35,22 +35,22 @@
 						</div>
 						<div class="form-group">
 							<label for="delete_course_name"><span
-								class="glyphicon glyphicon-course"></span> Name</label> <input type="text"
+								class="glyphicon glyphicon-heart"></span> Name</label> <input type="text"
 								class="form-control" id="delete_course_name" name="course_name" disabled="disabled">
 						</div>
 						<div class="form-group">
 							<label for="delete_course_instructor"><span
-								class="glyphicon glyphicon-course"></span> Instructor </label> <input type="text"
+								class="glyphicon glyphicon-heart"></span> Instructor </label> <input type="text"
 								class="form-control" id="delete_course_instructor" name="course_instructor" disabled="disabled">
 						</div>
 						<div class="form-group">
 							<label for="delete_course_ta"><span
-								class="glyphicon glyphicon-course"></span>TA </label> <input type="text"
+								class="glyphicon glyphicon-heart"></span>TA </label> <input type="text"
 								class="form-control" id="delete_course_ta" name="course_ta" disabled="disabled">
 						</div>
 						<div class="form-group">
 							<label for="delete_course_introduction"><span
-								class="glyphicon glyphicon-course"></span> Introduction </label> <input type="text"
+								class="glyphicon glyphicon-heart"></span> Introduction </label> <input type="text"
 								class="form-control" id="delete_course_introduction" name="course_introduction" disabled="disabled">
 						</div>
 						<button type="submit" class="btn btn-success btn-block">

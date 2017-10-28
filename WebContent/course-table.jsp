@@ -56,7 +56,7 @@
 	
 	<!--Navigation-->
 	<%@ include file="navigation.jsp" %>
-	<div class="content=wrapper">
+	<div class="content-wrapper">
 		<div class="container-fluid">
 			<!-- Breadcrumbs -->
 			<ol class="breadcrumb">
@@ -69,7 +69,7 @@
 				</li>
 				<li class="breadcrumb-item">
 					<button class="btn btn-danger" id="btnDeleteCourse" type="button"
-						onclick="deleteCourse()" diabled="disabled">Delete Course</button>
+						onclick="deleteCourse()" disabled="disabled">Delete Course</button>
 				</li>
 			</ol>
 			<!-- Example DataTables Card -->
@@ -135,7 +135,7 @@
 			class="fa fa-angle-up"></i>
 		</a>
 		
-			<%@ include file="addCourseDialog.jsp"%>
+		<%@ include file="addCourseDialog.jsp"%>
 		<%@ include file="editCourseDialog.jsp"%>
 		<%@ include file="deleteCourseDialog.jsp"%>
 

@@ -36,27 +36,27 @@
 						</div>
 						<div class="form-group">
 							<label for="edit_course_name"><span
-								class="glyphicon glyphicon-course"></span> Course</label> <input type="text"
+								class="glyphicon glyphicon-heart"></span> Course</label> <input type="text"
 								class="form-control" id="edit_course_name" name="course_name"
 								placeholder="Please input course name" required="required">
 						</div>
 						<div class="form-group">
 							<label for="edit_course_instructor"><span
-								class="glyphicon glyphicon-course"></span> Instructor</label> <input
+								class="glyphicon glyphicon-heart"></span> Instructor</label> <input
 								type="text" class="form-control" id="edit_course_instructor"
 								name="course_instructor" placeholder="Please input course instructor"
 								required="required">
 						</div>
 						<div class="form-group">
 							<label for="edit_course_ta"><span
-								class="glyphicon glyphicon-course"></span> TA</label> <input
+								class="glyphicon glyphicon-heart"></span> TA</label> <input
 								type="text" class="form-control" id="edit_course_ta"
 								name="course_ta" placeholder="Please input course TA"
 								required="required">
 						</div>
 						<div class="form-group">
 							<label for="edit_course_introduction"><span
-								class="glyphicon glyphicon-course"></span> Introduction</label> <input
+								class="glyphicon glyphicon-heart"></span> Introduction</label> <input
 								type="text" class="form-control" id="edit_course_introduction"
 								name="course_introduction" placeholder="Please input course introduction"
 								required="required">
