@@ -35,19 +35,19 @@
 	String idString = request.getParameter("id");
 	int id = idString == null || idString.equals("") ? 0 : Integer.parseInt(idString);
 	String courseId = request.getParameter("course_id");
-	String courseName = request.getParameter("name");
-	String instructorId = request.getParameter("instructor");
-	String ta = request.getParameter("ta");
-	String introduction = request.getParameter("introduction");
+	String courseName = request.getParameter("courde_name");
+	String instructor = request.getParameter("course_instructor");
+	String ta = request.getParameter("course_ta");
+	String introduction = request.getParameter("course_introduction");
 	ArrayList<course> coursedatas = courseDBHelper.getAllData();
 	if(id == 0){
 		if(courseName != null){
-			courseDBHelper.insertCourse(courseId, courseName, instructorId, ta, introduction);
+			courseDBHelper.insertCourse(courseId, courseName, instructor, ta, introduction);
 			response.sendRedirect("#");
 		}
 	}else{
 		if(courseName != null)
-			courseDBHelper.updateCourse(id, courseId, courseName, instructorId, ta, introduction);
+			courseDBHelper.updateCourse(id, courseId, courseName, instructor, ta, introduction);
 		else
 			courseDBHelper.deleteCourse(id);
 		response.sendRedirect("#");
