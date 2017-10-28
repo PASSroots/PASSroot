@@ -29,7 +29,7 @@
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
           <a class="nav-link" href="user-table.jsp">
             <i class="fa fa-fw fa-table"></i>
-            <span class="nav-link-text">Tables</span>
+            <span class="nav-link-text">Users</span>
           </a>
         </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
@@ -103,6 +103,12 @@
             <span class="nav-link-text">Link</span>
           </a>
         </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
+         <a class="nav-link" href="course-table.jsp">
+           <i class="fa fa-fw fa-table"></i>
+           <span class="nav-link-text">Courses</span>
+         </a>
+       </li>
       </ul>
       <ul class="navbar-nav sidenav-toggler">
         <li class="nav-item">
