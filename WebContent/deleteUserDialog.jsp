@@ -24,43 +24,33 @@
 				<div class="modal-body" style="pdeleteing: 40px 50px;">
 					<form role="form" action="#" method="post">
 						<div class="form-group">
-							<label for="delete_id"><span
-								class="glyphicon glyphicon-id"></span> Id</label> <input type="number"
+							<label for="delete_id"> Id </label> <input type="number"
 								class="form-control" id="delete_id" name="id" readonly="readonly">
 						</div>
 						<div class="form-group">
-							<label for="delete_user_id"><span
-								class="glyphicon glyphicon-id"></span> User Id</label> <input type="text"
+							<label for="delete_user_id"> User Id </label> <input type="text"
 								class="form-control" id="delete_user_id" name="user_id" disabled="disabled">
 						</div>
 						<div class="form-group">
-							<label for="delete_user_name"><span
-								class="glyphicon glyphicon-user"></span> Name</label> <input type="text"
+							<label for="delete_user_name"> Name </label> <input type="text"
 								class="form-control" id="delete_user_name" name="user_name" disabled="disabled">
 						</div>
 						<div class="form-group">
-							<label for="delete_user_password"><span
-								class="glyphicon glyphicon-user"></span> Password</label> <input type="text"
+							<label for="delete_user_password"> Password </label> <input type="text"
 								class="form-control" id="delete_user_password" name="user_password" disabled="disabled">
 						</div>
 						<div class="form-group">
-							<label for="delete_user_role"><span
-								class="glyphicon glyphicon-user"></span> Role</label>
+							<label for="delete_user_role"> Role </label>
 							<input class="form-control" id="delete_user_role" name="user_role" disabled="disabled">
 						</div>
 						<div class="form-group">
-							<label for="delete_user_email"><span
-								class="glyphicon glyphicon-email"></span> Email</label> <input
+							<label for="delete_user_email"> Email </label> <input
 								class="form-control" id="delete_user_email" type="email"
 								aria-describedby="emailHelp" name="user_email" disabled="disabled">
 						</div>
-						<button type="submit" class="btn btn-success btn-block">
-							<span class="glyphicon glyphicon-ok"></span> Delete
-						</button>
+						<button type="submit" class="btn btn-success btn-block"> Delete </button>
 						<button type="submit" class="btn btn-danger btn-block"
-							data-dismiss="modal">
-							<span class="glyphicon glyphicon-remove"></span> Cancel
-						</button>
+							data-dismiss="modal"> Cancel </button>
 					</form>
 				</div>
 			</div>

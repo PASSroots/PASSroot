@@ -41,9 +41,7 @@
 							</label>
 						</div>
 					</div>
-					<button type="submit" class="btn btn-success btn-block">
-						<span class="glyphicon glyphicon-ok"></span> Login
-					</button>
+					<button type="submit" class="btn btn-success btn-block"> Login </button>
 				</form>
 				<div class="text-center">
 					<a class="d-block small mt-3" href="register.html">Register an

@@ -22,46 +22,26 @@
 					</button>
 				</div>
 				<div class="modal-body" style="padding: 40px 50px;">
-					<form role="form" action="#" method="post">
+					
+				<form role="form" action="#" method="post">
 						<div class="form-group">
-							<label for="add_course_id"><span
-								class="glyphicon glyphicon-heart"></span> Course Id</label> <input type="text"
-								class="form-control" id="add_course_id" name="course_id"
-								placeholder="Please input course id" required="required">
+							<label for="add_course_id"> Course Id </label> <input type="text" class="form-control" id="add_course_id" name="course_id" placeholder="Please input course id" required="required">
 						</div>
 						<div class="form-group">
-							<label for="add_course_name"><span
-								class="glyphicon glyphicon-heart"></span> Name</label> <input type="text"
-								class="form-control" id="add_course_name" name="course_name"
-								placeholder="Please input course name" required="required">
+							<label for="add_course_name"> Name </label> <input type="text" class="form-control" id="add_course_name" name="course_name" placeholder="Please input course name" required="required">
 						</div>					
 						<div class="form-group">
-							<label for="add_course_instructor"><span
-								class="glyphicon glyphicon-instructor"></span> instructor</label> <input
-								class="form-control" id="add_course_intructor" name="course_instructor"
-								placeholder="Please input course instructor" required="required">
+							<label for="add_course_instructor"> instructor </label> <input class="form-control" id="add_course_intructor" name="course_instructor" placeholder="Please input course instructor" required="required">
 						</div>
 						<div class="form-group">
-							<label for="add_course_ta"><span
-								class="glyphicon glyphicon-ta"></span> TA</label> <input
-								class="form-control" id="add_course_ta" name="course_ta"
-								placeholder="Please input course TA" required="required">
+							<label for="add_course_ta"> TA </label> <input class="form-control" id="add_course_ta" name="course_ta" placeholder="Please input course TA" required="required">
 						</div>
 						<div class="form-group">
-							<label for="add_course_introduction"><span
-								class="glyphicon glyphicon-introduction"></span> Introduction</label> <input
-								class="form-control" id="add_course_introduction" name="course_introduction"
-								placeholder="Please input course introduction" required="required">
+							<label for="add_course_introduction"> Introduction </label> <input class="form-control" id="add_course_introduction" name="course_introduction" placeholder="Please input course introduction" required="required">
 						</div>
-						<button type="submit" class="btn btn-success btn-block">
-							<span class="glyphicon glyphicon-ok"></span> Add
-						</button>
-						<button type="submit" class="btn btn-danger btn-block"
-							data-dismiss="modal">
-							<span class="glyphicon glyphicon-remove"></span> Cancel
-						</button>
-					</form>
-				</div>
+						<button type="submit" class="btn btn-success btn-block">Add</button>
+						<button type="submit" class="btn btn-danger btn-block" data-dismiss="modal">Cancel</button>
+					</form></div>
 			</div>
 
 		</div>

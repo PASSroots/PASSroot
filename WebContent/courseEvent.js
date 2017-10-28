@@ -1,13 +1,13 @@
 function addCourse() {
-	$('#addCourseModal').model();
+	$('#addCourseModal').modal();
 }
 
 function editCourse() {
-	$('#editCourseModal').Model();
+	$('#editCourseModal').Modal();
 }
 
 function deleteCourse(ProductId, ProductName, ProduectPrice) {
-	$('#deleteCourseModal').Model();
+	$('#deleteCourseModal').Modal();
 }
 
 function courseUD(id, courseId, courseName, instructor, ta, introduction){

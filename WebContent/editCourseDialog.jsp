@@ -24,50 +24,40 @@
 				<div class="modal-body" style="pediting: 40px 50px;">
 					<form role="form" action="#" method="post">
 						<div class="form-group">
-							<label for="edit_id"><span
-								class="glyphicon glyphicon-id"></span> Id</label> <input type="number"
+							<label for="edit_id"> Id </label> <input type="number"
 								class="form-control" id="edit_id" name="id" readonly="readonly">
 						</div>
 						<div class="form-group">
-							<label for="edit_course_id"><span
-								class="glyphicon glyphicon-id"></span> Course Id</label> <input type="text"
+							<label for="edit_course_id"> Course Id </label> <input type="text"
 								class="form-control" id="edit_course_id" name="course_id"
 								placeholder="Please input course id" required="required">
 						</div>
 						<div class="form-group">
-							<label for="edit_course_name"><span
-								class="glyphicon glyphicon-heart"></span> Course</label> <input type="text"
+							<label for="edit_course_name">  Course </label> <input type="text"
 								class="form-control" id="edit_course_name" name="course_name"
 								placeholder="Please input course name" required="required">
 						</div>
 						<div class="form-group">
-							<label for="edit_course_instructor"><span
-								class="glyphicon glyphicon-heart"></span> Instructor</label> <input
+							<label for="edit_course_instructor"> Instructor </label> <input
 								type="text" class="form-control" id="edit_course_instructor"
 								name="course_instructor" placeholder="Please input course instructor"
 								required="required">
 						</div>
 						<div class="form-group">
-							<label for="edit_course_ta"><span
-								class="glyphicon glyphicon-heart"></span> TA</label> <input
+							<label for="edit_course_ta"> TA </label> <input
 								type="text" class="form-control" id="edit_course_ta"
 								name="course_ta" placeholder="Please input course TA"
 								required="required">
 						</div>
 						<div class="form-group">
-							<label for="edit_course_introduction"><span
-								class="glyphicon glyphicon-heart"></span> Introduction</label> <input
+							<label for="edit_course_introduction"> Introduction </label> <input
 								type="text" class="form-control" id="edit_course_introduction"
 								name="course_introduction" placeholder="Please input course introduction"
 								required="required">
 						</div>
-						<button type="submit" class="btn btn-success btn-block">
-							<span class="glyphicon glyphicon-ok"></span> Edit
-						</button>
+						<button type="submit" class="btn btn-success btn-block"> Edit </button>
 						<button type="submit" class="btn btn-danger btn-block"
-							data-dismiss="modal">
-							<span class="glyphicon glyphicon-remove"></span> Cancel
-						</button>
+							data-dismiss="modal"> Cancel </button>
 					</form>
 				</div>
 			</div>

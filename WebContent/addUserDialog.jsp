@@ -24,20 +24,17 @@
 				<div class="modal-body" style="padding: 40px 50px;">
 					<form role="form" action="#" method="post">
 						<div class="form-group">
-							<label for="add_user_id"><span
-								class="glyphicon glyphicon-user"></span> User Id</label> <input type="text"
+							<label for="add_user_id"> User Id </label> <input type="text"
 								class="form-control" id="add_user_id" name="user_id"
 								placeholder="Please input user id" required="required">
 						</div>
 						<div class="form-group">
-							<label for="add_user_name"><span
-								class="glyphicon glyphicon-user"></span> Name</label> <input type="text"
+							<label for="add_user_name"> Name </label> <input type="text"
 								class="form-control" id="add_user_name" name="user_name"
 								placeholder="Please input user name" required="required">
 						</div>
 						<div class="form-group">
-							<label for="add_user_name"><span
-								class="glyphicon glyphicon-user"></span> Role</label> <select
+							<label for="add_user_name"> Role </label> <select
 								class="form-control" id="add_user_role" name="user_role">
 								<option value="administrator">Administrator</option>
 								<option value="instructor">Instructor</option>
@@ -46,19 +43,14 @@
 							</select>
 						</div>
 						<div class="form-group">
-							<label for="add_user_email"><span
-								class="glyphicon glyphicon-email"></span> Email</label> <input
+							<label for="add_user_email">> Email </label> <input
 								class="form-control" id="add_user_email" type="email"
 								aria-describedby="emailHelp" name="user_email"
 								placeholder="Please input user email" required="required">
 						</div>
-						<button type="submit" class="btn btn-success btn-block">
-							<span class="glyphicon glyphicon-ok"></span> Add
-						</button>
+						<button type="submit" class="btn btn-success btn-block">> Add </button>
 						<button type="submit" class="btn btn-danger btn-block"
-							data-dismiss="modal">
-							<span class="glyphicon glyphicon-remove"></span> Cancel
-						</button>
+							data-dismiss="modal"> Cancel </button>
 					</form>
 				</div>
 			</div>

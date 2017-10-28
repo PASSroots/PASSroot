@@ -24,32 +24,27 @@
 				<div class="modal-body" style="pediting: 40px 50px;">
 					<form role="form" action="#" method="post">
 						<div class="form-group">
-							<label for="edit_id"><span
-								class="glyphicon glyphicon-id"></span> Id</label> <input type="number"
+							<label for="edit_id"> Id </label> <input type="number"
 								class="form-control" id="edit_id" name="id" readonly="readonly">
 						</div>
 						<div class="form-group">
-							<label for="edit_user_id"><span
-								class="glyphicon glyphicon-id"></span> User Id</label> <input type="text"
+							<label for="edit_user_id"> User Id </label> <input type="text"
 								class="form-control" id="edit_user_id" name="user_id"
 								placeholder="Please input user id" required="required">
 						</div>
 						<div class="form-group">
-							<label for="edit_user_name"><span
-								class="glyphicon glyphicon-user"></span> Name</label> <input type="text"
+							<label for="edit_user_name"> Name </label> <input type="text"
 								class="form-control" id="edit_user_name" name="user_name"
 								placeholder="Please input user name" required="required">
 						</div>
 						<div class="form-group">
-							<label for="edit_user_password"><span
-								class="glyphicon glyphicon-user"></span> Password</label> <input
+							<label for="edit_user_password"> Password </label> <input
 								type="text" class="form-control" id="edit_user_password"
 								name="user_password" placeholder="Please input user password"
 								required="required">
 						</div>
 						<div class="form-group">
-							<label for="edit_user_role"><span
-								class="glyphicon glyphicon-user"></span> Role</label> <select
+							<label for="edit_user_role"> Role </label> <select
 								class="form-control" id="edit_user_role" name="user_role">
 								<option value="administrator">Administrator</option>
 								<option value="instructor">Instructor</option>
@@ -58,19 +53,14 @@
 							</select>
 						</div>
 						<div class="form-group">
-							<label for="edit_user_email"><span
-								class="glyphicon glyphicon-email"></span> Email</label> <input
+							<label for="edit_user_email"> Email </label> <input
 								class="form-control" id="edit_user_email" type="email"
 								aria-describedby="emailHelp" name="user_email"
 								placeholder="Please input user email">
 						</div>
-						<button type="submit" class="btn btn-success btn-block">
-							<span class="glyphicon glyphicon-ok"></span> Edit
-						</button>
+						<button type="submit" class="btn btn-success btn-block"> Edit </button>
 						<button type="submit" class="btn btn-danger btn-block"
-							data-dismiss="modal">
-							<span class="glyphicon glyphicon-remove"></span> Cancel
-						</button>
+							data-dismiss="modal"> Cancel </button>
 					</form>
 				</div>
 			</div>
