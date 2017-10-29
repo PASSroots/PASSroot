@@ -107,4 +107,52 @@ public class UserDBHelper {
 			System.out.println("Delete User Error: " + ex);
 		}
 	}
+	
+	public User getPersonalInfo(String userId){
+		String sql = "Select "+COL_ID + ", " +COL_USER_NAME +  ", " + COL_USER_EMAIL + " From " + TABLE_NAME
+				+ " Where " + COL_USER_ID+ " = " + userId;
+		ResultSet resultSet;
+		User user = new User();
+		try {
+			resultSet = dbconnector.statement.executeQuery(sql);
+			while (resultSet.next()) {
+				user.id = resultSet.getInt(COL_ID);
+				user.userId = userId;
+				user.name = resultSet.getString(COL_USER_NAME);
+				user.email = resultSet.getString(COL_USER_EMAIL);
+			}
+			System.out.println("Finish getting personal information");
+		} catch (Exception e) {
+			System.out.println("Can not get personal information: " + e);
+		}
+		return user ;
+	}
+	
+	public void editEmail(String userId, String userEmail) {
+		String sql = "Update " + TABLE_NAME + " Set " + COL_USER_EMAIL + " = ? Where " + COL_USER_ID + " = ? ";
+		try {
+			PreparedStatement ps = dbconnector.connection.prepareStatement(sql);
+			ps.setString(1, userEmail);
+			ps.setString(2, userId);
+			ps.executeUpdate();
+		}
+
+		catch (Exception ex) {
+			System.out.println("Update Email Error: " + ex);
+		}
+	}
+	
+	public void editPassword(String userId, String userPassword) {
+		String sql = "Update " + TABLE_NAME + " Set " + COL_USER_PASSWORD + " = ? Where " + COL_USER_ID + " = ? ";
+		try {
+			PreparedStatement ps = dbconnector.connection.prepareStatement(sql);
+			ps.setString(1, userPassword);
+			ps.setString(2, userId);
+			ps.executeUpdate();
+		}
+
+		catch (Exception ex) {
+			System.out.println("Update Password Error: " + ex);
+		}
+	}
 }
