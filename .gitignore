@@ -1,2 +1,9 @@
 
 .classpath
+.classpath
+mysql-connector-java-5.1.44/src/doc/sources/.settings/org.eclipse.jdt.core.prefs
+mysql-connector-java-5.1.44/src/doc/sources/.project
+build/classes/model/CourseDBHelper.class
+*.class
+*.class
+*.class
