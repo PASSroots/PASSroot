@@ -11,7 +11,7 @@ function deleteCourse(ProductId, ProductName, ProduectPrice) {
 }
 
 function courseUD(id, courseId, courseName, instructor, ta, introduction){
-	var dataTable = document.getElement("dataTable");
+	var dataTable = document.getElementById("CoursedataTable");
 	var rows = dataTable.getElementsByTagName("tr");
 	for (var i = 0; i< rows.length; i++){
 		rows[i].style.backgroundColor = "#FFFFFF";
