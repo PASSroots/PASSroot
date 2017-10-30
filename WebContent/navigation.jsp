@@ -15,7 +15,7 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Courses">
-          <a class="nav-link" href="charts.html">
+          <a class="nav-link" href="course-table.jsp">
             <i class="fa fa-fw fa-sitemap"></i>
             <span class="nav-link-text">Courses</span>
           </a>
@@ -32,12 +32,6 @@
             <span class="nav-link-text">Personal Information</span>
           </a>
         </li>
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
-         <a class="nav-link" href="course-table.jsp">
-           <i class="fa fa-fw fa-table"></i>
-           <span class="nav-link-text">Courses</span>
-         </a>
-       </li>
       </ul>
       <ul class="navbar-nav sidenav-toggler">
         <li class="nav-item">
