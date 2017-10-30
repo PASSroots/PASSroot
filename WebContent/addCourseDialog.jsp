@@ -34,9 +34,6 @@
 							<label for="add_course_instructor"> instructor </label> <input class="form-control" id="add_course_intructor" name="course_instructor" placeholder="Please input course instructor" required="required">
 						</div>
 						<div class="form-group">
-							<label for="add_course_ta"> TA </label> <input class="form-control" id="add_course_ta" name="course_ta" placeholder="Please input course TA" required="required">
-						</div>
-						<div class="form-group">
 							<label for="add_course_introduction"> Introduction </label> <input class="form-control" id="add_course_introduction" name="course_introduction" placeholder="Please input course introduction" required="required">
 						</div>
 						<button type="submit" class="btn btn-success btn-block">Add</button>
