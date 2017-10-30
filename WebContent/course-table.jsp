@@ -1,6 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=BIG5"
-    pageEncoding="BIG5"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html lang="en">
 <%@ page import="java.util.ArrayList"%>
 <%@ page import="java.util.Calendar"%>
@@ -8,10 +6,11 @@
 <%@ page import="model.CourseDBHelper"%>
 <head>
 <meta charset="UTF-8">
-  <meta name="description" content="Free Web tutorials">
-  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
-  <meta name="author" content="John Doe">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
 <title>Courses</title>
 <!-- Bootstrap core CSS-->
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -35,7 +34,7 @@
 	String idString = request.getParameter("id");
 	int id = idString == null || idString.equals("") ? 0 : Integer.parseInt(idString);
 	String courseId = request.getParameter("course_id");
-	String courseName = request.getParameter("courde_name");
+	String courseName = request.getParameter("course_name");
 	String instructor = request.getParameter("course_instructor");
 	String ta = request.getParameter("course_ta");
 	String introduction = request.getParameter("course_introduction");
@@ -46,10 +45,12 @@
 			response.sendRedirect("#");
 		}
 	}else{
-		if(courseName != null)
+		if(courseName != null){
 			courseDBHelper.updateCourse(id, courseId, courseName, instructor, ta, introduction);
-		else
+		}
+		else{
 			courseDBHelper.deleteCourse(id);
+		}
 		response.sendRedirect("#");
 	}
 	%>
