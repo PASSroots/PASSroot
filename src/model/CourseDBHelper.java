@@ -44,7 +44,7 @@ public class CourseDBHelper {
 	public void insertCourse(String courseId, String courseName, String instructor, String ta, String introduction) {
 		String sql = "Insert Into " + TABLE_NAME + " (" + COL_COURSE_ID + ", "
 		 			+ COL_COURSE_NAME + ", " + COL_INSTRUCTOR_ID + ", " + COL_TA_ID
-					+ ", " + COL_INTRODUCTION + ") Vlaue( ?, ?, ?, ?, ?)";
+					+ ", " + COL_INTRODUCTION + ") Value( ?, ?, ?, ?, ?)";
 		try {
 			PreparedStatement ps = dbconnector.connection.prepareStatement(sql);
 			ps.setString(1, courseId);
@@ -60,8 +60,8 @@ public class CourseDBHelper {
 
 	public void updateCourse(int id, String courseId, String courseName, String instructor, String ta, String introduction) {
 		String sql = "Update " + TABLE_NAME + " Set " + COL_COURSE_ID + " = ?, " + COL_COURSE_NAME + " = ?, "
-					+ COL_INSTRUCTOR_ID + " = ?, " + COL_TA_ID + " = ?, " + COL_INTRODUCTION + " = ?, "
-					+ "Where " + COL_ID + " = ? ";
+					+ COL_INSTRUCTOR_ID + " = ?, " + COL_TA_ID + " = ?, " + COL_INTRODUCTION 
+					+ " = ? Where " + COL_ID + " = ? ";
 		try {
 			PreparedStatement ps = dbconnector.connection.prepareStatement(sql);
 			ps.setString(1, courseId);

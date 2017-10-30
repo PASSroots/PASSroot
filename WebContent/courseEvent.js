@@ -1,17 +1,17 @@
 function addCourse() {
-	$('#addCourseModal').modal();
+	$("#addCourseModal").modal();
 }
 
 function editCourse() {
-	$('#editCourseModal').Modal();
+	$("#editCourseModal").modal();
 }
 
 function deleteCourse(ProductId, ProductName, ProduectPrice) {
-	$('#deleteCourseModal').Modal();
+	$("#deleteCourseModal").modal();
 }
 
 function courseUD(id, courseId, courseName, instructor, ta, introduction){
-	var dataTable = document.getElement("dataTable");
+	var dataTable = document.getElementById("CoursedataTable");
 	var rows = dataTable.getElementsByTagName("tr");
 	for (var i = 0; i< rows.length; i++){
 		rows[i].style.backgroundColor = "#FFFFFF";

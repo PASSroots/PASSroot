@@ -61,13 +61,18 @@
 
 		<div class="container-fluid">
 			<!-- Breadcrumbs-->
-
-			<button class="btn btn-primary" id="btnAddUser" type="button"
-				onclick="addUser()">Add User</button>
-			<button class="btn btn-success" id="btnEditUser" type="button"
-				onclick="editUser()" disabled="disabled">Edit User</button>
-			<button class="btn btn-danger" id="btnDeleteUser" type="button"
-				onclick="deleteUser()" disabled="disabled">Delete User</button>
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item">
+					<button class="btn btn-primary" id="btnAddUser" type="button"
+						onclick="addUser()">Add User</button>
+				</li>
+				<li class="breadcrumb-item"><button class="btn btn-success"
+						id="btnEditUser" type="button" onclick="editUser()"
+						disabled="disabled">Edit User</button></li>
+				<li class="breadcrumb-item"><button class="btn btn-danger"
+						id="btnDeleteUser" type="button" onclick="deleteUser()"
+						disabled="disabled">Delete User</button></li>
+			</ol>
 			<!-- Example DataTables Card-->
 			<div class="card mb-3">
 				<div class="card-header">
